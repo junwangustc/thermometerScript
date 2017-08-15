@@ -1,0 +1,12 @@
+[[sender]]
+addr = "http://relay.mynet:8186"
+username = ""
+password = ""
+user-agent = "Esm-Gateway-New"
+timeout = 10000000
+gzip = true
+precision = "ns"
+consistency = "one"
+udp = [
+    { enabled=true, bind-address="0.0.0.0:8186", database="base", batch-size=10000, batch-pending=10,batch-timeout = 10, read-buffer=0 },
+]

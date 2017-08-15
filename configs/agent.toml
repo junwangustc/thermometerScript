@@ -1,0 +1,14 @@
+defaultinterval=10
+defaultaddr="gateway.mynet:8186"
+defaultdatabase="base"
+defaultpayloadsize=2000
+defaultprecision="s"
+[[collectors]]
+interval=10
+collectorname="Cpuload"
+[collectors.writerconfig]
+addr="gateway.mynet:8186"
+database="base"
+hostgroup="none"
+payloadsize=1000
+precision="s"

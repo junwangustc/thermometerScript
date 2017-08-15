@@ -1,0 +1,19 @@
+docker stop influxdb
+docker rm influxdb
+docker stop grafana
+docker rm grafana
+docker stop sh-agent1
+docker rm sh-agent1
+docker stop gateway
+docker rm gateway
+docker stop relay
+docker rm relay
+docker stop etcd
+docker rm etcd
+docker stop judge
+docker rm judge
+docker stop convergence
+docker rm convergence
+docker stop alarm
+docker rm alarm
+docker network rm mynet

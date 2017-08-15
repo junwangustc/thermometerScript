@@ -1,0 +1,8 @@
+[[http]]
+name = "example-http"
+bind-addr = "0.0.0.0:8186"
+output = [
+    { name="influxdb", location = "http://influxdb.mynet:8086/write" },
+    { name="judge", location = "http://judge.mynet:9092/write" },
+]
+
